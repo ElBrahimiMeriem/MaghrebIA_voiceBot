@@ -64,7 +64,8 @@ To use the app, you will need:
 
 - **agent.py**: The main implementation of the voice assistant, initializing embeddings, handling RAG-based response generation, and managing voice interactions.
 - **build\_data.py**: Prepares and stores vectorized documents using OpenAI embeddings and the Chroma vector store. Essential for building the vector store from datasets.
-
+- **data_scraping/**: Contains scripts for scraping data from tourism-related websites.
+- **data_preprocessing/**: Includes scripts for cleaning, preparing, and normalizing the scraped data into a usable format.
 ---
 
 ## How to Run
