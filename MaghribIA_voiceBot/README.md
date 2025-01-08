@@ -8,6 +8,18 @@ This repository contains the implementation of a voice assistant named **Maghreb
 A custom dataset was created by scraping data from various websites, including **Booking** and **Visit Morocco**, to compile a CSV file with **17,153 entries**, each containing a **Prompt** (question) and a **Response** (answer). This dataset is the foundation for generating relevant and precise responses.
 
 ---
+##  Data Sources: 
+ The dataset was built by scraping tourism-related content from trusted sources, such as:
+  - [Booking.com](https://www.booking.com/)
+  - [Lonely Planet](https://www.lonelyplanet.com/)
+  - [Visit Morocco](https://www.visitmorocco.com/)
+  - [Memphis Tours](https://www.memphistours.com/)
+  - [TasteAtlas](https://www.tasteatlas.com/)
+  - [Nomadic Matt](https://www.nomadicmatt.com/)
+  - [GetYourGuide](https://www.getyourguide.com/)
+  - [Site of Moroccan Ministry of Youth, Culture, and Communication](https://mtaess.gov.ma/fr/annuaires/annuaire-des-etablissements-dhebergements-touristique/)
+  - [Morocco.com](https://www.morocco.com/)
+  - [Best Restaurants Maroc](https://www.bestrestaurantsmaroc.com/)
 
 
 ## Architecture 
