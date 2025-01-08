@@ -26,7 +26,7 @@ A custom dataset was created by scraping data from various websites, including *
 
 The architecture of MaghrebIA is designed to provide seamless and interactive voice-based assistance for Moroccan tourism. Below is an overview of the methodology and flow:
 
-1. **Call Initialization**: The user initiates a call via Twilio, which serves as the voice gateway.
+1. **Call Initialization**: The user initiates a call via Twilio.
 2. **Speech Processing**: OpenAI's Whisper model transcribes the user's voice input into text.
 3. **Query Embedding**:
    - The transcribed query is vectorized using OpenAI's **text-embedding-ada-002** model.
@@ -38,12 +38,17 @@ The architecture of MaghrebIA is designed to provide seamless and interactive vo
 6. **Voice Output**:
    - OpenAI's TTS model converts the response into speech.
    - The spoken response is delivered back to the user via Twilio.
+     
+**LiveKit and Twilio Interaction**:
+
+  LiveKit acts as the real-time voice stream manager, ensuring that the audio flows smoothly between the user and the backend AI services (STT, LLM, TTS). Twilio serves as the gateway for handling the call and managing the phone number for the user’s voice communication.
 
 ### Visual Representation
 
 Below is the architecture of the system:
 
-<img width="834" alt="image" src="https://github.com/user-attachments/assets/8545add5-3ea7-41f4-a990-3322c0ccf7a3" />
+![image](https://github.com/user-attachments/assets/1f6d0d33-4a17-4f46-8d2c-81380feede4e)
+
 
 ---
 
