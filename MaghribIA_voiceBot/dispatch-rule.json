@@ -1,0 +1,9 @@
+{
+    "name": "My dispatch rule",
+    "trunk_ids": ["ST_is3C8JQ4fshm"],
+    "rule": {
+      "dispatchRuleIndividual": {
+        "roomPrefix": "call"
+      }
+    }
+  }
