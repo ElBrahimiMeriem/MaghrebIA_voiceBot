@@ -1,7 +1,7 @@
 
 ________________________________________
 
-# MaghrebIA: Moroccan Tourism Voice Assistant
+# MaghrebIA: Moroccan Tourism Voice Bot
 
 This repository contains the implementation of a voice assistant named **MaghrebIA**, designed to provide accurate, culturally-sensitive, and practical information about Moroccan tourism. The assistant uses **Retrieval-Augmented Generation (RAG)** to enhance responses, leveraging embeddings and vector search for context retrieval.
 
